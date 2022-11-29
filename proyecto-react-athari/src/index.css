@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  color: black;
+  
+}
+
+.div-btn{
+  text-align: center;
+}
+.div-btn a {
+  justify-content: center;
+  margin: 30px 20px;
+}
+
+.card-ps5{
+  text-align: center;
+  justify-content: center;
+  margin: 100px auto;
+}
+.card-ps5 .card{
+  margin: auto;
+  border: 1px solid black;
+  border-radius: 25px;
+  box-shadow: 2px 4px 6px;
+}
+.card-ps5 .card img{
+  padding: 7px;
+}
+
+.boton-compra{
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 25px;
+}
+
+footer{
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  text-align: center;
+  background-color: #002B5B;
+  font-size: 20px; }
+  footer div {
+    margin: 20px 0px; }
+  footer ul {
+    list-style-type: none; 
+}
+
+.img-redes{
+  width: 5%;
+  margin-left: 15px;
+}
+
+
