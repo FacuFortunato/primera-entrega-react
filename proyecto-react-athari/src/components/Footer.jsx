@@ -11,9 +11,9 @@ const Footer = () => {
             </ul>
             <div className="col-md-6">
                 <h2>Redes</h2>
-                <a href="https://web.whatsapp.com/" target="_blank"><img className="img-redes" src="img/whatsapp.png" alt="Logo Whatsapp"/></a>
-                <a href="https://www.instagram.com/" target="_blank"><img className="img-redes" src="img/facebook.png" alt="Logo Instagram"/></a>
-                <a href="https://es-la.facebook.com/" target="_blank"><img className="img-redes" src="img/instagram.png" alt="Logo Facebook"/></a>
+                <a href="https://web.whatsapp.com/" target="_blank" rel="noreferrer"><img className="img-redes" src="img/whatsapp.png" alt="Logo Whatsapp"/></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noreferrer"><img className="img-redes" src="img/facebook.png" alt="Logo Instagram"/></a>
+                <a href="https://es-la.facebook.com/" target="_blank" rel="noreferrer"><img className="img-redes" src="img/instagram.png" alt="Logo Facebook"/></a>
             </div>
             <h3>Todos los derechos reservados</h3>
         </footer>
