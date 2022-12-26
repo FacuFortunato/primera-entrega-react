@@ -13,10 +13,9 @@ const ItemDetailContainer = () =>{
 
         const fetchProductos = () => {
 
-            const response = fetch("../json/arrayProductos.json")
-            .then(response => response.json())
-            .then(productos => setItems(productos.find (item => item.id === parseInt(id))))
-
+            fetch("../json/arrayProductos.json")
+                .then(response => response.json())
+                .then(productos => setItems(productos.find (item => item.id === parseInt(id))))
 
         }
 

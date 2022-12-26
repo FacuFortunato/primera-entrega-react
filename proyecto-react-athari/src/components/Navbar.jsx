@@ -16,9 +16,9 @@ const Navbar = () =>{
                             </button>
                             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                                 <div className="navbar-nav">
-                                        <NavLink className="nav-link active" aria-current="page" to={"/category/juegos-ps4"}>Juegos PS4</NavLink>
-                                        <NavLink className="nav-link" to={"/category/juegos-ps5"}>Juegos PS5</NavLink>
-                                        <NavLink className="nav-link" to={"/category/consolas"}>Joysticks</NavLink>
+                                        <NavLink className="nav-link active" aria-current="page" to={"/category/juego-ps4"}>Juegos PS4</NavLink>
+                                        <NavLink className="nav-link" to={"/category/juego-ps5"}>Juegos PS5</NavLink>
+                                        <NavLink className="nav-link" to={"/category/joystick"}>Joysticks</NavLink>
                                         <NavLink className="nav-link" to={"/category/perifericos"}>Periféricos</NavLink>
                                 </div>
                                 </div>

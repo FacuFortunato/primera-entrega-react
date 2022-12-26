@@ -12,7 +12,6 @@ const Item = ({item}) => {
                     <div className="card-body">
                         <p className="card-text">
                             {item.nombre}<br/><em>$ {item.precio}</em>
-                            <button name="button" className="boton-compra"> Añadir al carrito</button>
                         </p>
                     </div>
                 </div>

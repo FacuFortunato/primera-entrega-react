@@ -1,14 +1,14 @@
 [
-    {"id": 1, "nombre": "Stray PS5", "img": "https://ps4digitalargentina.com/files/images/productos/1655148656-stray-ps5-pre-orden-0.jpg", "categoria": "Juego PS5", "precio": 15200},
-    {"id": 2, "nombre": "Sackboy PS5", "img": "https://expressgame.com.ar/wp-content/uploads/2021/02/Sackboy.jpg", "categoria": "Juego PS5", "precio": 15000},
-    {"id": 3, "nombre": "Ghost Whire PS5", "img": "https://cashconverters.com.na/wp-content/uploads/sites/2/2022/09/Ghostwire-Tokyo-PS5.jpg", "categoria": "Juego PS5", "precio": 13900},
-    {"id": 4, "nombre": "FIFA 23 PS4", "img": "https://kalimagames.com/wp-content/uploads/2022/07/COVER-PS4-BORDES-RECTOS-6-750x914.png", "categoria": "Juego PS4", "precio": 14400},
-    {"id": 5, "nombre": "Ark PS4", "img": "https://dixgamer.com/wp-content/uploads/2017/02/ARK-Survival-Evolved-1-330x413.png", "categoria": "Juego PS4", "precio": 7500},
-    {"id": 6, "nombre": "Days Gone PS4", "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/067/161/products/days-gone-cover-web1-cc75846783fcd5ea7415778189461652-640-0.webp", "categoria": "Juego PS4", "precio": 5900},
-    {"id": 7, "nombre": "Auricular Alpha S", "img": "https://http2.mlstatic.com/D_NQ_NP_666386-MLA42129025433_062020-O.webp", "categoria": "Periféricos", "precio": 27000},
-    {"id": 8, "nombre": "Teclado Redragon Kumara", "img": "https://app.contabilium.com/files/explorer/16752/Productos-Servicios/concepto-6445266.jpg", "categoria": "Periféricos", "precio": 29000},
-    {"id": 9, "nombre": "Mouse Logitech G203", "img": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/mouse-logitech-g203-gaming-lightsync-black-910005793-0.jpg", "categoria": "Periféricos", "precio": 6000},
-    {"id": 10, "nombre": "Joystick PS4 camuflado", "img": "https://spacegamer.com.ar/img/Public/1058-producto-8084ff-130.jpg", "categoria": "Joystick", "precio": 26000},
-    {"id": 11, "nombre": "Dualsense PS5", "img": "https://www.naldo.com.ar/medias/Method-504724-1-515Wx515H?context=bWFzdGVyfGltYWdlc3wxNzIwNXxpbWFnZS9qcGVnfGltYWdlcy9oNTgvaDU3Lzk2MTI2MzYyOTExMDIuanBnfDkyYzI4ZjBkZjdlNDg1NGMyYzM4ODE3MmVhOWY5OGJmOGRiNDI3N2ZkMmE4MTE3NmJkYjJmMmMwOTdiOGM0YjY", "categoria": "Joystick", "precio": 22000},
-    {"id": 12, "nombre": "Joystick Xbox Series X", "img": "https://http2.mlstatic.com/D_NQ_NP_749977-MLA44330907675_122020-O.webp", "categoria": "Joystick", "precio": 35000}
+    {"id": 1, "nombre": "Stray PS5", "img": "https://ps4digitalargentina.com/files/images/productos/1655148656-stray-ps5-pre-orden-0.jpg", "categoria": "juego-ps5", "precio": 15200, "stock":10},
+    {"id": 2, "nombre": "Sackboy PS5", "img": "https://expressgame.com.ar/wp-content/uploads/2021/02/Sackboy.jpg", "categoria": "juego-ps5", "precio": 15000, "stock":10},
+    {"id": 3, "nombre": "Ghost Whire PS5", "img": "https://cashconverters.com.na/wp-content/uploads/sites/2/2022/09/Ghostwire-Tokyo-PS5.jpg", "categoria": "juego-ps5", "precio": 13900, "stock":10},
+    {"id": 4, "nombre": "FIFA 23 PS4", "img": "https://kalimagames.com/wp-content/uploads/2022/07/COVER-PS4-BORDES-RECTOS-6-750x914.png", "categoria": "juego-ps4", "precio": 14400, "stock":10},
+    {"id": 5, "nombre": "Ark PS4", "img": "https://dixgamer.com/wp-content/uploads/2017/02/ARK-Survival-Evolved-1-330x413.png", "categoria": "juego-ps4", "precio": 7500, "stock":10},
+    {"id": 6, "nombre": "Days Gone PS4", "img": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/067/161/products/days-gone-cover-web1-cc75846783fcd5ea7415778189461652-640-0.webp", "categoria": "juego-ps4", "precio": 5900, "stock":10},
+    {"id": 7, "nombre": "Auricular Alpha S", "img": "https://http2.mlstatic.com/D_NQ_NP_666386-MLA42129025433_062020-O.webp", "categoria": "perifericos", "precio": 27000, "stock":10},
+    {"id": 8, "nombre": "Teclado Redragon Kumara", "img": "https://app.contabilium.com/files/explorer/16752/Productos-Servicios/concepto-6445266.jpg", "categoria": "perifericos", "precio": 29000, "stock":10},
+    {"id": 9, "nombre": "Mouse Logitech G203", "img": "https://www.fullh4rd.com.ar/img/productos/Pics_Prod/mouse-logitech-g203-gaming-lightsync-black-910005793-0.jpg", "categoria": "perifericos", "precio": 6000, "stock":10},
+    {"id": 10, "nombre": "Joystick PS4 camuflado", "img": "https://spacegamer.com.ar/img/Public/1058-producto-8084ff-130.jpg", "categoria": "joystick", "precio": 26000, "stock":10},
+    {"id": 11, "nombre": "Dualsense PS5", "img": "https://www.naldo.com.ar/medias/Method-504724-1-515Wx515H?context=bWFzdGVyfGltYWdlc3wxNzIwNXxpbWFnZS9qcGVnfGltYWdlcy9oNTgvaDU3Lzk2MTI2MzYyOTExMDIuanBnfDkyYzI4ZjBkZjdlNDg1NGMyYzM4ODE3MmVhOWY5OGJmOGRiNDI3N2ZkMmE4MTE3NmJkYjJmMmMwOTdiOGM0YjY", "categoria": "joystick", "precio": 22000},
+    {"id": 12, "nombre": "Joystick Xbox Series X", "img": "https://http2.mlstatic.com/D_NQ_NP_749977-MLA44330907675_122020-O.webp", "categoria": "joystick", "precio": 35000, "stock":10}
 ]

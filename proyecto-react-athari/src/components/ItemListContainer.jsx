@@ -13,9 +13,9 @@ const ItemListContainer = () => {
 
         const fetchProductos = () => {
 
-            const response = fetch("../json/arrayProductos.json")
-            .then(response => response.json())
-            .then(productos => id ? setItems(productos.filter(item => item.categoria === id)) : setItems (productos))
+            fetch("../json/arrayProductos.json")
+                .then(response => response.json())
+                .then(productos => id ? setItems(productos.filter(item => item.categoria === id)) : setItems (productos))
 
         }
 
