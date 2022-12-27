@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import ItemDetail from "./ItemDetail";
+import { doc, getDoc, getFirestore } from "firebase/firestore";
 
 const ItemDetailContainer = () =>{
 
@@ -11,6 +12,17 @@ const ItemDetailContainer = () =>{
 
     useEffect(() => {
 
+        const db = getFirestore ();
+        const documento = doc (db, "items", id);
+        getDoc(documento).then((productos) => {
+            if (productos.exists ()){
+                setItems({id:productos.id, ...productos.data()});
+            } else {
+                console.log("Error ! No se encontró el Documento !");
+            }
+        });
+
+        /*
         const fetchProductos = () => {
 
             fetch("../json/arrayProductos.json")
@@ -20,7 +32,7 @@ const ItemDetailContainer = () =>{
         }
 
         fetchProductos();
-
+        */
 
     }, [id]);
 
