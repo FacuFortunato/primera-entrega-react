@@ -13,19 +13,6 @@ const ItemListContainer = () => {
 
     useEffect(() => {
 
-
-        /*
-        const fetchProductos = () => {
-
-            fetch("../json/arrayProductos.json")
-                .then(response => response.json())
-                .then(productos => id ? setItems(productos.filter(item => item.categoria === id)) : setItems (productos))
-
-        }
-
-        fetchProductos();
-        */
-
         const db = getFirestore ();
         const itemsCollection = collection (db, "items");
         const q = id ? query(itemsCollection, where("categoria", "==", id)): itemsCollection;

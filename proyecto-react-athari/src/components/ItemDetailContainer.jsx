@@ -22,17 +22,6 @@ const ItemDetailContainer = () =>{
             }
         });
 
-        /*
-        const fetchProductos = () => {
-
-            fetch("../json/arrayProductos.json")
-                .then(response => response.json())
-                .then(productos => setItems(productos.find (item => item.id === parseInt(id))))
-
-        }
-
-        fetchProductos();
-        */
 
     }, [id]);
 
