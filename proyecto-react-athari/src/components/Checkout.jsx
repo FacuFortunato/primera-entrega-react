@@ -34,19 +34,19 @@ const Checkout = () => {
             <div className="row my-5">
                 <div className="col">
                 <form>
-                    <div class="mb-3">
-                        <label for="nombre" class="form-label">Ingrese su nombre</label>
-                        <input type="text" class="form-control" placeholder="Ingrese su nombre" onInput={(e) => {setNombre(e.target.value)}}/>
+                    <div className="mb-3">
+                        <label htmlFor="nombre" className="form-label">Ingrese su nombre</label>
+                        <input type="text" className="form-control" placeholder="Ingrese su nombre" onInput={(e) => {setNombre(e.target.value)}}/>
                     </div>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Ingrese su nombre</label>
-                        <input type="text" class="form-control" placeholder="Ingrese su Email" onInput={(e) => {setEmail(e.target.value)}}/>
+                    <div className="mb-3">
+                        <label htmlFor="email" className="form-label">Ingrese su email</label>
+                        <input type="text" className="form-control" placeholder="Ingrese su Email" onInput={(e) => {setEmail(e.target.value)}}/>
                     </div>
-                    <div class="mb-3">
-                        <label for="teléfono" class="form-label">Ingrese su nombre</label>
-                        <input type="text" class="form-control" placeholder="Ingrese su teléfono" onInput={(e) => {setTelefono(e.target.value)}}/>
+                    <div className="mb-3">
+                        <label htmlFor="teléfono" className="form-label">Ingrese su teléfono</label>
+                        <input type="text" className="form-control" placeholder="Ingrese su teléfono" onInput={(e) => {setTelefono(e.target.value)}}/>
                     </div>
-                    <button type="button" class="btn btn-primary" onClick={generarOrden}>Genere su orden</button>
+                    <button type="button" className="btn btn-primary" onClick={generarOrden}>Genere su orden</button>
                     </form>
                 </div>
             </div>

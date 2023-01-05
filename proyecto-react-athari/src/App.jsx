@@ -1,5 +1,5 @@
 import './index.css';
-import React /* { useEffect } */ from 'react';
+import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Footer from './components/Footer';
 import ItemListContainer from './components/ItemListContainer';
@@ -10,21 +10,8 @@ import CartContextProvider from './components/context/CartContext';
 import Cart from './components/Cart';
 import Checkout from './components/Checkout';
 
-/*
-import productos from  './json/arrayProductos.json'
-import { addDoc, collection, getFirestore } from 'firebase/firestore';
-*/
 
 function App() {
-
-  //se ejecuta una vez y se comenta este useEffect para que no se repitan los juegos en firebase
-  /*
- useEffect(()=>{
-  const db = getFirestore();
-    const productosCollecction = collection(db, "items");
-    productos.map((item)=> addDoc(productosCollecction, item))
-  }, [])
-  */
 
   return (
 
